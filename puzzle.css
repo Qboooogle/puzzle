@@ -1,0 +1,139 @@
+/*
+CSE 190 M, Spring 2009, Marty Stepp
+Homework 6 (Fifteen Puzzle) style sheet
+*/
+
+body {
+	background-color: white;
+	font-family: cursive;
+	font-size: 14pt;
+	background-color:#FFF5EE;
+}
+
+#controls, #overall{
+	width: 400px;
+}
+
+#controls {
+	padding-top: 380px;
+	padding-left:300px;
+	text-align: center;
+}
+
+h1 {
+	margin: 10px 0px;
+	text-align: center;
+}
+
+/* Used to center the puzzle. */
+#overall {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* The area that holds the 15 puzzle pieces. */
+/* This class should be applied to each of the 15 puzzle pieces. */
+/* This class should be applied to a puzzle piece that can be moved. */
+
+.bg {
+	background-image: url(bg.png);
+	width:320px;
+	height:320px;
+	position: absolute;
+	left:700px;
+	top:200px;
+}
+.pu_css0{
+	width:80px;
+	height:80px;
+	background-image: url(bg1.png);
+}
+.pu_css1{
+	width:80px;
+	height:80px;
+	background-image: url(bg2.png);
+	
+}
+.pu_css2{
+	width:80px;
+	height:80px;
+	background-image: url(bg3.png);
+}
+.pu_css3{
+	width:80px;
+	height:80px;
+	background-image: url(bg4.png);
+}
+.pu_css4{
+	width:80px;
+	height:80px;
+	background-image: url(bg5.png);
+}
+.pu_css5{
+	width:80px;
+	height:80px;
+	background-image: url(bg6.png);
+}
+.pu_css6{
+	width:80px;
+	height:80px;
+	background-image: url(bg7.png);
+}
+.pu_css7{
+	width:80px;
+	height:80px;
+	background-image: url(bg8.png);
+}
+.pu_css8{
+	width:80px;
+	height:80px;
+	background-image: url(bg9.png);
+}
+.pu_css9{
+	width:80px;
+	height:80px;
+	background-image: url(bg10.png);
+}
+.pu_css10{
+	width:80px;
+	height:80px;
+	background-image: url(bg11.png);
+}
+.pu_css11{
+	width:80px;
+	height:80px;
+	background-image: url(bg12.png);
+}
+.pu_css12{
+	width:80px;
+	height:80px;;
+	background-image: url(bg13.png);
+}
+.pu_css13{
+	width:80px;
+	height:80px;
+	background-image: url(bg14.png);
+}
+.pu_css14{
+	width:80px;
+	height:80px;
+	background-image: url(bg15.png);
+}
+.pu_css15{
+	width:80px;
+	height:80px;
+	background-image: url(black.png);
+}
+#input{
+	padding-top: 3px;
+	padding-left:20px;
+	text-align: center;
+	width:50px;
+}
+#w3c {
+	text-align: right;
+}
+
+#w3c img {
+	border: none;
+}
